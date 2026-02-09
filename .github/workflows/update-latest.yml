@@ -63,7 +63,7 @@ jobs:
     steps:
       - name: Send toot to Mastodon
         id: mastodon
-        uses: cbrgm/mastodon-github-action@3ebdc72dcd894e1be460179eb0d01835f3689b2f # v2.1.23
+        uses: cbrgm/mastodon-github-action@a4eea3d4ca4a297b4221c4f56500dc0e175824ce # v2.1.24
         with:
           message: |
             pnpm@${{ github.event.inputs.version }} is out!
